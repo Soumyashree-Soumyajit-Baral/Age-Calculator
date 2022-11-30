@@ -14,14 +14,12 @@ h1, span{
     font-weight: bolder;
 }
 .container{
-    height: 400px;
+    height: 350px;
     width: 500px;
     position: absolute;
     left: 8%;
     top: 8%;
-    /* border: 1px solid white; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -38,7 +36,6 @@ input{
     justify-content: center;
     height: 100px;
     width: 400px;
-    /* border: 1px solid white; */
 }
 .cart{
     width: 100px;
@@ -47,18 +44,20 @@ input{
 }
 .result{
     color: rgba(229, 2, 241, 0.85);
+    font-size: larger;
+    margin-top: 30px;
 }
 button{
     background-color: rgba(229, 2, 241, 0.85);
-    height: 35px;
+    height: 30px;
     width: 150px;
     font-weight: bolder;
     cursor: pointer;
 }
 .res{
-    height: 80px;
+    height: 100px;
     position: absolute;
-    top: 60%;
+    top: 62%;
     display: flex;
     align-items: center;
     flex-direction: column;

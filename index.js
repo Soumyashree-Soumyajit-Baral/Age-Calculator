@@ -15,7 +15,7 @@ function submitForm(){
         let y=cdate.getFullYear()
         let allmonth=[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
         if(date>d){
-            d=d2+month[m-1]
+            d=d2+allmonth[m-1]
             m=m-1
         }
         if(month>m){
