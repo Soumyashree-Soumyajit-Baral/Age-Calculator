@@ -1,0 +1,65 @@
+.parent{
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background-color: black;
+    align-items: center;
+}
+h1, span{
+    color: rgba(229, 2, 241, 0.85);
+    font-weight: bolder;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    left: 8%;
+    top: 8%;
+    /* border: 1px solid white; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+}
+.main{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 400px;
+    /* border: 1px solid white; */
+}
+.cart{
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+}
+.result{
+    color: rgba(229, 2, 241, 0.85);
+}
+button{
+    background-color: rgba(229, 2, 241, 0.85);
+    height: 35px;
+    width: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.res{
+    height: 80px;
+    position: absolute;
+    top: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
