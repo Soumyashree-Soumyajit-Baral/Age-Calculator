@@ -15,7 +15,7 @@ function submitForm(){
         let y=cdate.getFullYear()
         let allmonth=[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
         if(date>d){
-            d=d2+allmonth[m-1]
+            d=d+allmonth[m-1]
             m=m-1
         }
         if(month>m){
@@ -28,5 +28,4 @@ function submitForm(){
         let p=document.querySelector(".result")
         p.innerHTML=`Your Age is ${y1} Years ${m1} Months ${d1} Days.`
     }
-    
 }
